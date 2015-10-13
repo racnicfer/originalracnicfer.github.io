@@ -1,7 +1,7 @@
 /*Global*/
 
-body { 
-    background: #8888B9;
+body {
+    background: #8A7AC7;
 }
 img {
     width: 50%;
