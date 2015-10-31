@@ -1,5 +1,9 @@
 /*Global*/
 
+html {
+    font-family: 'Old Standard TT', serif;
+}
+
 body { 
     background: #8888B9;
 }
