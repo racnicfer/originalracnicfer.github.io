@@ -1,20 +1,59 @@
+/* Color Palette
+Primary: #522426  #646464
+Secondary:#8BA8A5   #2E3C61
+Tertiary/Accent Color: #F1BA73, #A49581, #D8CEBC    #C07E94   #271C16
+#E8E83C
+
+#364775
+
+#F5F563
+
+#BDC5CB
+
+
+Typography: Headlines: font-family: 'Old Standard TT', serif;
+
+
+Body Copy: font-family: 'Cabin', sans-serif;
+
+
+backgrounds:
+http://subtlepatterns.com/?s=fashion */
+
+
+
+/*
+background-image: url(../img/me1.jpg);
+    background-size: 35%;
+    background-repeat: no-repeat;
+*/
+
 /*Global*/
 
 html {
-    font-family: 'Old Standard TT', serif;
+    background: #F5F563;
 }
 
 body { 
-    background: #8888B9;
+    margin: 20px;
+    background-color: rgba(230, 230, 230, .2);
+    padding: 20px;
 }
 img {
-    width: 50%;
+    float: left;
+    width: 15%;  
+    padding: 20px;
 }
-/*Layout*/
 
-
+h1 {
+    font-family: 'Old Standard TT', serif;
+    float: right;
+    font-size: 8em;
+    color: #364775;
+    text-align: right;
+    margin-right: 10px;
+}
 /*Typography*/
-
 
 /*Navigation*/
 a {
@@ -27,4 +66,10 @@ a {
 li { 
     display: inline-block;
     text-align: center;   
+}
+
+/* Videos and Sound */
+iframe {
+    width: 28em;
+    height: 11em;
 }
