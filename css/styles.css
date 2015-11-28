@@ -57,7 +57,8 @@ h1 {
   font-family: 'Old Standard TT', serif;
     font-size: 5.8125em; /* 93px/16px=5.8125em */
   margin: 0;
-  padding-left: 2.85em;    /*265px/16px= em*/
+    text-align: center;
+  padding-left: 220px;    /*265px/16px= em*/
    
 /*
     color: #364775; 
@@ -69,6 +70,7 @@ h1 {
 /*Navigation*/
 nav {
     padding-left: 10em;
+    text-align: center;
 }
 a:link {    
     background: green;
@@ -83,21 +85,51 @@ a:link {
     text-align: center;
     text-decoration: none;
     width: 120px;
+    border: 2px solid red
 }
 
 a:visited {
     color: black;
+     border-color: red;
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: purple;
+    color: purple;   
 }
 
+
+a:focus {
+    border-bottom: 2px solid black;  
+     border-left: 2px solid black; 
+     background: orange;
+    border-radius: 20px;
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    margin: 28px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+/*
+    background: grey;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: purple;   
+   display: inline;
+    height: 100px;
+    width: 200px;
+*/
+}
+    
+    
 li { 
     display: inline-block;  
     list-style: none;
+  
 }
 
 /* Videos and Sound */
