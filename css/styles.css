@@ -26,50 +26,78 @@ http://subtlepatterns.com/?s=fashion */
 background-image: url(../img/me1.jpg);
     background-size: 35%;
     background-repeat: no-repeat;
+
 */
 
 /*Global*/
 
 html {
-    background: #F5F563;
+    background: blue;
 }
 
 body { 
-    margin: 20px;
     background-color: rgba(230, 230, 230, .2);
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
 }
+  
+aside {
+    background: red;
+    padding: 10px;
+        
+}
+
 img {
+/*    margin: 10px;*/
+    width: 20%;
     float: left;
-    width: 15%;  
-    padding: 20px;
 }
 
 h1 {
-    font-family: 'Old Standard TT', serif;
-    float: right;
-    font-size: 8em;
-    color: #364775;
-    text-align: right;
-    margin-right: 10px;
+  font-family: 'Old Standard TT', serif;
+    font-size: 5.8125em; /* 93px/16px=5.8125em */
+  margin: 0;
+  padding-left: 2.85em;    /*265px/16px= em*/
+   
+/*
+    color: #364775; 
+*/
 }
+
 /*Typography*/
 
 /*Navigation*/
-a {
-    background: gold;
-    border-radius: 50px;
-    display: block;
-    height: 50px;
-    width: 100px;
+nav {
+    padding-left: 10em;
 }
+a:link {    
+    background: green;
+    border-radius: 20px;
+    color: orange;
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    margin: 28px;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: purple;
+}
+
 li { 
-    display: inline-block;
-    text-align: center;   
+    display: inline-block;  
+    list-style: none;
 }
 
 /* Videos and Sound */
-iframe {
-    width: 28em;
-    height: 11em;
-}
