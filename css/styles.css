@@ -16,18 +16,20 @@ Typography: Headlines: font-family: 'Old Standard TT', serif;
 
 Body Copy: font-family: 'Cabin', sans-serif;
 
+Name font: font-family: 'Kaushan Script', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Niconne', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Montez', cursive;
+font-family: 'Norican', cursive;
+font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Lovers Quarrel', cursive;
+font-family: 'Mrs Saint Delafield', cursive;
+
 
 backgrounds:
 http://subtlepatterns.com/?s=fashion */
 
-
-
-/*
-background-image: url(../img/me1.jpg);
-    background-size: 35%;
-    background-repeat: no-repeat;
-
-*/
 
 /*Global*/
 
@@ -42,7 +44,7 @@ body {
 }
   
 .zero {
-    background: red;
+    background: indigo;
     padding: 10px;
     border-radius: 10px;
 }
@@ -55,14 +57,18 @@ img {
 }
 
 h1 {
-  font-family: 'Old Standard TT', serif;
+
     font-size: 5.8125em; /* 93px/16px=5.8125em */
   margin: 0;
     text-align: center;
 }
 h2 {
     font-family: 'Old Standard TT', serif;
+    font-size: 4em;
+    background: orange /*opacity*/;
+    margin: 20px 2%;
 }
+
 p,
 h3 {
     font-family: 'Cabin', sans-serif;
@@ -132,12 +138,25 @@ nav li {
     display: inline-block;  
     list-style: none;
 }
+
 /* Div */
-.one,
-.two,
-.three { 
-    display: inline-block;  
+
+section {   
+    background: rgba(230,230,230, .4);
+    float: left; 
+    text-align: center;
     list-style: none;
+    margin: 2%;
+    width: 96%;   
+       
+}
+section li {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    margin: 5px;
+    padding-bottom: 10px;
+    padding-right: 4%;
   
 }
 /* Videos and Sound */
