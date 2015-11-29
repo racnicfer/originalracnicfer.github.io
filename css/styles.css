@@ -44,13 +44,15 @@ body {
 aside {
     background: red;
     padding: 10px;
-        
+    border-radius: 10px;
 }
 
 img {
 /*    margin: 10px;*/
-    width: 20%;
+    width: 29%;
     float: left;
+    border-radius: 10px;
+   
 }
 
 h1 {
@@ -58,13 +60,16 @@ h1 {
     font-size: 5.8125em; /* 93px/16px=5.8125em */
   margin: 0;
     text-align: center;
-  padding-left: 220px;    /*265px/16px= em*/
    
 /*
     color: #364775; 
 */
 }
-
+h2 {
+    display: inline-block;
+    margin: 50px;
+    font-family: 'Old Standard TT', serif;
+}
 /*Typography*/
 
 /*Navigation*/
@@ -78,51 +83,48 @@ a:link {
     color: orange;
     display: block;
     font-family: 'Cabin', sans-serif;
-    font-size: 24px;
-    height: 50px;
-    line-height: 50px;
-    margin: 28px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 20px;
+    margin: 20px;
     text-align: center;
     text-decoration: none;
-    width: 120px;
-    border: 2px solid red
+    width: 100px;
+    border: 2px solid red;
+    padding-top: 7px;
 }
 
 a:visited {
+  background: green;
+    border-radius: 20px;
     color: black;
-     border-color: red;
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    border: 2px solid red;
+    padding-top: 7px;
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: purple;   
+    color: orange;
+    background: purple;
+    transition: all .5s;
 }
 
 
 a:focus {
-    border-bottom: 2px solid black;  
-     border-left: 2px solid black; 
-     background: orange;
-    border-radius: 20px;
-    display: block;
-    font-family: 'Cabin', sans-serif;
-    font-size: 24px;
-    height: 50px;
-    line-height: 50px;
-    margin: 28px;
-    text-align: center;
-    text-decoration: none;
-    width: 120px;
-/*
-    background: grey;
-    border: 2px solid orange;
-    border-radius: 20px;
-    color: purple;   
-   display: inline;
-    height: 100px;
-    width: 200px;
-*/
+   background: darkmagenta;
+color: orangered;
+    transition: all .5s;
+ 
 }
     
     
