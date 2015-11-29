@@ -41,7 +41,7 @@ body {
     padding: 10px;
 }
   
-aside {
+.zero {
     background: red;
     padding: 10px;
     border-radius: 10px;
@@ -51,8 +51,7 @@ img {
 /*    margin: 10px;*/
     width: 29%;
     float: left;
-    border-radius: 10px;
-   
+    border-radius: 10px; 
 }
 
 h1 {
@@ -60,14 +59,18 @@ h1 {
     font-size: 5.8125em; /* 93px/16px=5.8125em */
   margin: 0;
     text-align: center;
-   
-/*
-    color: #364775; 
-*/
 }
 h2 {
+    font-family: 'Old Standard TT', serif;
+}
+p,
+h3 {
+    font-family: 'Cabin', sans-serif;
+}
+
+div {
     display: inline-block;
-    margin: 50px;
+    margin: 30px;
     font-family: 'Old Standard TT', serif;
 }
 /*Typography*/
@@ -90,7 +93,6 @@ a:link {
     text-align: center;
     text-decoration: none;
     width: 100px;
-    border: 2px solid red;
     padding-top: 7px;
 }
 
@@ -107,7 +109,6 @@ a:visited {
     text-align: center;
     text-decoration: none;
     width: 100px;
-    border: 2px solid red;
     padding-top: 7px;
 }
 
@@ -127,11 +128,16 @@ color: orangered;
  
 }
     
-    
-li { 
+nav li { 
+    display: inline-block;  
+    list-style: none;
+}
+/* Div */
+.one,
+.two,
+.three { 
     display: inline-block;  
     list-style: none;
   
 }
-
 /* Videos and Sound */
