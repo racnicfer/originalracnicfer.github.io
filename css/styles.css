@@ -51,15 +51,14 @@ body {
 
 img {
 /*    margin: 10px;*/
-    width: 20%;
-    float: left;
-    border-radius: 10px; 
+    width: 15%;
+    
+    border-radius: 13px; 
 }
 
 h1 {
-
-    font-size: 5.6125em; /* 93px/16px=5.8125em */
-  margin: 0;
+    font-size: 5.8125em; /* 93px/16px=5.8125em */
+    margin: 0;
     text-align: center;
 }
 h2 {
@@ -82,10 +81,11 @@ div {
 /*Typography*/
 
 /*Navigation*/
+
 nav {
-    padding-left: 10em;
-    text-align:0 auto;
+    text-align: center;
 }
+
 a:link {    
     background: green;
     border-radius: 20px;
@@ -159,4 +159,36 @@ section li {
     padding-right: 4%;
   
 }
-/* Videos and Sound */
+.contact a {
+    display: inline-block;
+     background: black;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    line-height: 30px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+
+.item {
+    
+    display: block;
+}
+
+
+/* Gallery Styling */
+.gallery {
+height: 500px;
+}
+
+.gallery .item {
+    background: none;
+}
+
+.controls img:hover {
+ outline: 5px solid red;   
+}

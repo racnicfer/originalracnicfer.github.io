@@ -1,31 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
   <head>
-   <meta charset="UTF-8">
-   <main href="css/grid.css">
-    <title>Rachael Ferry</title>
+    <meta charset="UTF-8">
+    <title>CSS 3 Gallery</title>
     
-    <link href='https://fonts.googleapis.com/css?family=Lobster|Dancing+Script|Kaushan+Script|Courgette|Tangerine|Damion|Niconne|Parisienne|Allura|Petit+Formal+Script|Montez|Arizonia|Mr+De+Haviland|Norican|Qwigley|Herr+Von+Muellerhoff|Meddon|Mr+Dafoe|Bilbo+Swash+Caps|Lovers+Quarrel|Mrs+Saint+Delafield|Monsieur+La+Doulaise|Mr+Bedfort' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.2/normalize.css"> 
-    <link rel="stylesheet"href="css/grid.css"> 
-    <link rel="stylesheet" href="css/styles.css">
-<!--    <link rel="stylesheet" href="css/grid.css">-->
-  <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700|Cabin:400,700,400italic' rel='stylesheet' type='text/css'>
-      
+    <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/gallery.css">
+      <link rel="stylesheet" href="css/styles.css">
+
+    
   </head>
-       <body class="grid-container"> 
-     <aside class="zero"> 
-      <h1>Rachael Ferry</h1>
-      </aside>
-<nav role='navigation'>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="portfolio.html">Portfolio</a></li>
-    <li><a href="contact.html">Contact Me</a></li>
-  </ul>
-</nav>
-      </body>
-      </html>
+
+  <body>
+
+    <div class="gallery items-3">
+  
+  <!-- Containers for Content -->
+  <div id="item-1" class="control-operator"></div>
+  <div id="item-2" class="control-operator"></div>
+  <div id="item-3" class="control-operator"></div>
+  
+  
+  <!-- Content -->
+  <figure class="item">
+    <h4>Item 1</h4>
+    <img src="http://placehold.it/400x300" alt="" />
+      <p>test</p>
+  </figure>
+
+  <!-- Content -->
+  <figure class="item">
+    <h4>Item 2</h4>
+    <img src="http://placehold.it/400x300" alt="" />
+  </figure>
+
+  <!-- Content -->
+  <figure class="item">
+    <h4>Item 3</h4>
+    <img src="http://placehold.it/400x300" alt="" />
+  </figure>
+  
+  <!-- Controls/Navigation -->
+  <div class="controls">
+    <a href="#item-1" class="control-button">
+      <img src="http://placehold.it/50x50" alt="" />
+    </a>
+    <a href="#item-2" class="control-button">
+      <img src="http://placehold.it/50x50" alt="" />
+    </a>
+    <a href="#item-3" class="control-button">
+      <img src="http://placehold.it/50x50" alt="" />
+    </a>
+  </div>
+</div>
     
+    
+    
+    
+    
+  </body>
+</html>
