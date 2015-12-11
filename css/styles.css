@@ -74,7 +74,7 @@ h3 {
 }
 
 div {
-    display: inline-block;
+    float: right;
     margin: 30px;
     font-family: 'Old Standard TT', serif;
 }
@@ -174,21 +174,12 @@ section li {
     width: 100px;
 }
 
-.item {
-    
-    display: block;
-}
-
-
-/* Gallery Styling */
-.gallery {
-height: 500px;
-}
-
-.gallery .item {
+.controls a {
     background: none;
+    border-radius: none; 
+}
+.controls a img {
+    height: 100px;
+    width: 100px; 
 }
 
-.controls img:hover {
- outline: 5px solid red;   
-}
