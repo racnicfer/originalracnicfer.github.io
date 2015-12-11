@@ -51,14 +51,14 @@ body {
 
 img {
 /*    margin: 10px;*/
-    width: 29%;
+    width: 20%;
     float: left;
     border-radius: 10px; 
 }
 
 h1 {
 
-    font-size: 5.8125em; /* 93px/16px=5.8125em */
+    font-size: 5.6125em; /* 93px/16px=5.8125em */
   margin: 0;
     text-align: center;
 }
@@ -84,7 +84,7 @@ div {
 /*Navigation*/
 nav {
     padding-left: 10em;
-    text-align: center;
+    text-align:0 auto;
 }
 a:link {    
     background: green;
@@ -92,8 +92,8 @@ a:link {
     color: orange;
     display: block;
     font-family: 'Cabin', sans-serif;
-    font-size: 20px;
-    height: 40px;
+    font-size: 15px;
+    height: 35px;
     line-height: 20px;
     margin: 20px;
     text-align: center;
