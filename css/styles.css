@@ -172,34 +172,130 @@ figure {
     display: inline-block;
     float: left;
     height: 100%;
-    width: 100%;
-    margin: 10px;
-    
-    
-    
     background: rgba(230,230,230, .4);
     text-align: center;
     margin: 2%;
     width: 98%;
-    
-    
-    
 }
-
-/*
-section li {
- width: 100%;
-    text-align: center;
-    list-style: none;
-    margin: 5px;
-    padding-bottom: 10px;
-    padding-right: 4%;
-}
-*/
-
 
 figure img {
     text-align: center;
     margin: 10px;
    width: 30%;
 }
+/* Media Queries */
+
+/* Tablet */
+
+
+/* Mobile */
+
+@media screen and (max-width: 768px ) {
+/*
+html {
+    background: red;
+  }
+h1 {
+      font-size: 45px;
+  }
+    .zero {
+        padding: none;
+    }
+h2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 16px;
+    background: orange;  
+    margin: 10px;
+    
+    }
+section li {
+        margin : none;
+        padding-right: 20%;
+    }
+section {
+       margin-top: 23px;
+    }
+*/
+    
+  a:link {    
+    background: green;
+    border-radius: 20px;
+    color: orange;
+    display: block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 15px;
+    height: 35px;
+    line-height: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    padding-top: 7px;
+}
+
+a:visited {
+  background: green;
+    border-radius: 20px;
+    color: black;
+    display: block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    height: 40px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    padding-top: 7px;
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: orange;
+    background: purple;
+    transition: all .5s;
+}
+
+
+a:focus {
+   background: darkmagenta;
+color: orangered;
+    transition: all .5s;
+ 
+}  
+    
+    
+a:link {    
+    background: white;
+    border-radius: 30px;
+    color: orange;
+    display: block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 12px;
+    height: 2.1875em;  
+/*    35/16=2.1875*/
+    line-height: 1.25em;
+/*    20/16=1.25em*/
+    margin: 15px;   
+    width: 5em;
+    /* 75/16=4.6875 */
+    }
+ul {
+    padding-right: 40px;
+    width: 27.5em;
+    /* 440/16=27.5em*/
+}
+
+a:visited {
+  background: green;     
+}
+    
+    p,
+    h3 {
+        font-size: 17px;        
+    }
+    
+    section li {
+        font-size: 13px;
+    }
