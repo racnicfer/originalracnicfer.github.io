@@ -47,8 +47,9 @@ h1 {
 }
 h2 {
     font-family: 'Old Standard TT', serif;
-    font-size: 4em;
-    background: orange /*opacity*/;
+    font-size: 50px;
+    background: #2E3C61;
+    color: #F5F563;
     margin: 20px 2%;
 }
 
@@ -100,15 +101,15 @@ a:visited {
 a:active,
 a:focus,
 a:hover {
-    color: orange;
-    background: purple;
+    color:  #F5F563;
+    background: #BDC5CB;
     transition: all .5s;
 }
 
 
 a:focus {
-   background: darkmagenta;
-color: orangered;
+   background: #BDC5CB;
+color: #F5F563;
     transition: all .5s;
  
 }
@@ -140,9 +141,9 @@ section li {
 }
 .contact a {
     display: inline-block;
-     background: black;
+     background: #BDC5CB;
     border-radius: 50px;
-    color: white;
+    color: #2E3C61;
     font-family: 'Old Standard TT', serif;
     font-size: 20px;
     height: 40px;
@@ -180,30 +181,32 @@ figure img {
     margin: 10px;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
+    width: 40%;
 }
 /* Media Queries */
 
 
 /* Mobile & Tablet */
 
+
 @media screen and (max-width: 768px ) {
 html {
-    background: red;
+    background: #BDC5CB;
   }
-    nav {
-        margin: none;
+nav {
+    margin: none;
     }
-        h1 {
-      font-size: 45px;
+h1 {
+    background-color: #F5F563;
+    font-size: 45px;
   }
-    .zero {
+.zero {
         padding: none;
     }
 h2 {
     font-family: 'Old Standard TT', serif;
     font-size: 16px;
-    background: orange;  
+    background: #2E3C61;  
     margin: 10px;
     
     }
@@ -215,9 +218,17 @@ section {
        margin-top: 23px;
     }
 
+a:active,
+a:focus,
+a:hover {
+    color:  #F5F563;
+    background: #BDC5CB;
+    transition: all .5s;
+}
 
 a:visited {
-  background: green;     
+  background: #F5F563; 
+    color: #2E3C61;
 }
     
     p,
