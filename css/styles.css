@@ -64,9 +64,9 @@ nav {
 }
 
 a:link {    
-    background: green;
+    background: #BDC5CB;
     border-radius: 20px;
-    color: orange;
+    color: #2E3C61;
     display: block;
     font-family: 'Old Standard TT', serif;
     font-size: 15px;
