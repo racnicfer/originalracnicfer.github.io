@@ -11,25 +11,13 @@ Tertiary/Accent Color: #F1BA73, #A49581, #D8CEBC    #C07E94   #271C16
 #BDC5CB
 
 
-Typography: Headlines: font-family: 'Old Standard TT', serif;
+Typography: Headlines: font-family: 'Allura', cursive; 'Old Standard TT', serif;
 
 
-Body Copy: font-family: 'Cabin', sans-serif;
-
-Name font: font-family: 'Kaushan Script', cursive;
-font-family: 'Tangerine', cursive;
-font-family: 'Niconne', cursive;
-font-family: 'Allura', cursive;
-font-family: 'Montez', cursive;
-font-family: 'Norican', cursive;
-font-family: 'Bilbo Swash Caps', cursive;
-font-family: 'Lovers Quarrel', cursive;
-font-family: 'Mrs Saint Delafield', cursive;
-
+Body Copy: font-family:  'Old Standard TT', serif;
 
 backgrounds:
 http://subtlepatterns.com/?s=fashion */
-
 
 /*Global*/
 
@@ -52,12 +40,12 @@ body {
 img {
 /*    margin: 10px;*/
     width: 15%;
-    
-    border-radius: 13px; 
+    border-radius: 5px; 
 }
-
+ 
 h1 {
-    font-size: 5.8125em; /* 93px/16px=5.8125em */
+    font-family: 'Allura', cursive;
+    font-size: 6.8125em; /* 93px/16px=5.8125em */
     margin: 0;
     text-align: center;
 }
@@ -70,14 +58,9 @@ h2 {
 
 p,
 h3 {
-    font-family: 'Cabin', sans-serif;
-}
-
-div {
-    float: right;
-    margin: 30px;
     font-family: 'Old Standard TT', serif;
 }
+
 /*Typography*/
 
 /*Navigation*/
@@ -91,7 +74,7 @@ a:link {
     border-radius: 20px;
     color: orange;
     display: block;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-size: 15px;
     height: 35px;
     line-height: 20px;
@@ -107,7 +90,7 @@ a:visited {
     border-radius: 20px;
     color: black;
     display: block;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-size: 20px;
     height: 40px;
     line-height: 30px;
@@ -164,7 +147,7 @@ section li {
      background: black;
     border-radius: 50px;
     color: white;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Old Standard TT', serif;
     font-size: 20px;
     height: 40px;
     line-height: 30px;
@@ -183,3 +166,40 @@ section li {
     width: 100px; 
 }
 
+/* Gallery */
+
+figure {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    
+    
+    
+    background: rgba(230,230,230, .4);
+    text-align: center;
+    margin: 2%;
+    width: 98%;
+    
+    
+    
+}
+
+/*
+section li {
+ width: 100%;
+    text-align: center;
+    list-style: none;
+    margin: 5px;
+    padding-bottom: 10px;
+    padding-right: 4%;
+}
+*/
+
+
+figure img {
+    text-align: center;
+    margin: 10px;
+   width: 30%;
+}
